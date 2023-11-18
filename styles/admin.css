@@ -1,0 +1,128 @@
+.boxes {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+
+
+/* .field-group{
+  position: relative;
+  text-align: center;
+} */
+.html-label{
+  display: block;
+  font-size: 1.0em;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.html-field{
+  outline: none;
+  width: 400px;
+  height: 20px;
+  background: red;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5x rgba(0,0,0,1);
+  overflow: hidden;
+}
+.html-field::-webkit-slider-thumb{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  box-shadow: -410px 0 0 400px red;
+  cursor: pointer;
+}
+.css-label{
+  display: block;
+  font-size: 1.0em;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.css-field{
+  outline: none;
+  width: 400px;
+  height: 20px;
+  background: #d1d1d1;;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5x rgba(0,0,0,1);
+  overflow: hidden;
+}
+.css-field::-webkit-slider-thumb{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  box-shadow: -410px 0 0 400px blue;
+  cursor: pointer;
+}
+.javascript-label{
+  display: block;
+  font-size: 1.2em;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.javascript-field{
+  outline: none;
+  width: 400px;
+  height: 20px;
+  background: #d1d1d1;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5x rgba(0,0,0,1);
+  overflow: hidden;
+}
+.javascript-field::-webkit-slider-thumb{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  box-shadow: -410px 0 0 400px green;
+  cursor: pointer;
+}
+.tailwind-label{
+  display: block;
+  font-size: 1.2em;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.tailwind-field{
+  outline: none;
+  width: 400px;
+  height: 20px;
+  background: #d1d1d1;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5x rgba(0,0,0,1);
+  overflow: hidden;
+}
+.tailwind-field::-webkit-slider-thumb{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  box-shadow: -410px 0 0 400px purple;
+  cursor: pointer;
+}
+
+.data{
+  margin-left: 120px;
+  margin-top: 30px;
+}
